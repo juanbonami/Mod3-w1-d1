@@ -21,5 +21,7 @@ public class Week3HW {
     public static int returnUserInputs(int x, int y) {
         return x + y;
     }
-
+    public static double inchesToMeters(double x) {
+        return x * 0.0254;
+    }
 }
