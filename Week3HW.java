@@ -15,6 +15,8 @@ public class Week3HW {
 
         double inches = in.nextDouble();
 
+        System.out.println(inchesToMeters(inches));
+
 
 
     }
