@@ -7,10 +7,10 @@ public class Week3HW {
         int firstUserInput = in.nextInt();
         int secondUserInput = in.nextInt();
 
-
+        System.out.println(returnUserInputs(firstUserInput, secondUserInput));
 
     }
-    public int returnUserInputs(int x, int y) {
+    public static int returnUserInputs(int x, int y) {
         return x + y;
     }
 }
