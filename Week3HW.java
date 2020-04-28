@@ -8,5 +8,9 @@ public class Week3HW {
         int secondUserInput = in.nextInt();
 
 
+
+    }
+    public int returnUserInputs(int x, int y) {
+        return x + y;
     }
 }
