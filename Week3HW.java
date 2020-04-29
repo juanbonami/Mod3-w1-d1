@@ -5,6 +5,9 @@ public class Week3HW {
 
         //  Write a Java program that takes two numbers as input and display the product of two numbers.
         Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter number: ");
+
         int firstUserInput = in.nextInt();
         int secondUserInput = in.nextInt();
 
@@ -16,7 +19,6 @@ public class Week3HW {
         double inches = in.nextDouble();
 
         System.out.println(inchesToMeters(inches));
-
 
 
     }
